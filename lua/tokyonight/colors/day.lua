@@ -52,17 +52,14 @@ return function(opts)
   -- }
 
   -- Overrides
-  -- colors.bg = "#e1e2e7"
   colors.bg = "#ffffff"
-
-  -- colors.fg = "#3760bf"
   colors.fg = "#10103f"
-
-  -- colors.orange = "#b15c00"
   colors.orange = "#e15c00"
-
-  --   green = "#587539",
-  colors.green = "#587539"
+  colors.green = "#5aae00"
+  colors.blue1 = "#188092"
+  colors.git.add = "#07c2de"
+  colors.git.change = "#085ce4"
+  colors.git.delete = "#f94457"
 
   return colors
 end

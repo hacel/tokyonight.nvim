@@ -13,8 +13,6 @@ return function(opts)
   Util.invert(colors)
   colors.bg_dark = Util.blend(colors.bg, 0.9, colors.fg)
 
-  vim.print(colors)
-
   colors.bg = "#ffffff"
   colors.bg_dark = "#ced5e7"
   colors.bg_highlight = "#c3c8df"
